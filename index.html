@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <section class="reveal-screen" id="revealScreen" aria-label="Tap to reveal invitation">
+        <div class="envelope-scene">
+          <p class="tap-title">Tap To Reveal</p>
+          <button class="seal-button" id="openInvite" type="button" aria-label="Open wedding invitation">
+            <span class="seal-ring"></span>
+            <span class="seal-initials">S&amp;B</span>
+          </button>
+          <div class="envelope">
+            <div class="flap flap-top"></div>
+            <div class="flap flap-left"></div>
+            <div class="flap flap-right"></div>
+            <div class="flap flap-bottom"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="invitation-experience" id="invitationExperience" aria-label="Wedding invitation">
+        <div class="petals" id="petals" aria-hidden="true"></div>
+        <div class="gold-corners" aria-hidden="true"></div>
+
+        <section class="panel hero-panel" aria-label="Main invitation message">
+          <article class="invitation-card">
+            <div class="corner-lines" aria-hidden="true"></div>
+            <div class="ganesh">ॐ</div>
+            <p class="sanskrit">মাঙ্গল্যং তন্তুনানেন জীবনং শুভমস্তু বঃ ।<br />সৌভাগ্যং সন্ততিং চৈব দম্পত্যোঃ শুভমস্তু চ ॥</p>
+            <p class="invite-copy">
+              With the blessings of the Almighty and our respected elders,<br />
+              we joyfully request your gracious presence on the wedding celebration of
+            </p>
+            <h1 class="couple-name">Baishakhe Talukder</h1>
+            <p class="family-line">Daughter of Mr. Pankaj Talukder &amp; Mrs. Shally Talukder</p>
+            <div class="ampersand">&amp;</div>
+            <h2 class="couple-name">Shuvo Mazumder</h2>
+            <p class="family-line">Son of Mr. Ranadhir Mazumder &amp; Mrs. Trishna Mazumder</p>
+          </article>
+          <a class="scroll-cue" href="#bigDay" aria-label="Scroll to wedding date">Scroll <span>↓</span></a>
+        </section>
+
+        <section class="panel date-panel" id="bigDay" aria-label="Wedding date">
+          <article class="date-card">
+            <p class="eyebrow">The Big Day</p>
+            <p class="soft-copy">The start of a beautiful journey, shared with the ones we love most</p>
+            <p class="date-line">Monday · 6th July 2026</p>
+            <h2 class="script-title">We’re getting Married!</h2>
+          </article>
+        </section>
+
+        <section class="panel moments-panel" aria-label="Photo slideshow">
+          <div class="section-heading">
+            <p class="eyebrow">A Glimpse Of Us</p>
+            <h2>Our Beautiful<br />Moments</h2>
+            <span class="divider">★</span>
+          </div>
+          <figure class="photo-frame">
+            <div class="slide-stack" id="slideStack">
+              <img src="assets/photo-1.jpg" alt="Couple memory 1" />
+              <img src="assets/photo-2.jpg" alt="Couple memory 2" />
+              <img src="assets/photo-3.jpg" alt="Couple memory 3" />
+              <img src="assets/photo-4.jpg" alt="Couple memory 4" />
+              <img src="assets/photo-5.jpg" alt="Couple memory 5" />
+              <img src="assets/photo-6.jpg" alt="Couple memory 6" />
+              <img src="assets/photo-7.jpg" alt="Couple memory 7" />
+              <img src="assets/photo-8.jpg" alt="Couple memory 8" />
+            </div>
+            <figcaption>A moment captured in time, forever in our hearts</figcaption>
+          </figure>
+        </section>
+
+        <section class="panel invitation-image-panel" aria-label="Wedding invitation card image">
+          <div class="section-heading">
+            <p class="eyebrow">With Love</p>
+            <h2>Main Wedding<br />Invitation</h2>
+            <span class="divider">★</span>
+          </div>
+          <div class="image-card tall-image-card">
+            <img src="assets/main-invitation-card.jpg" alt="Main wedding invitation card" />
+            <div class="image-fallback">
+              <span>Main invitation card image</span>
+              <small>Replace: assets/main-invitation-card.jpg</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel venue-panel" aria-label="Wedding venue">
+  <div class="section-heading">
+    <p class="eyebrow">Where Love Awaits</p>
+    <h2>Our Cherished<br />Venue</h2>
+    <span class="divider">★</span>
+  </div>
+
+  <article class="venue-card">
+    <img src="assets/venue.jpg" alt="Wedding venue" />
+    <div class="venue-photo-fallback">Venue Photo</div>
+
+    <div class="venue-details">
+      <h3>RB Convention Hall</h3>
+      <p>আরাকান রোড, Chattogram</p>
+
+      <div class="map-embed" aria-label="Venue map">
+        <iframe
+          title="Wedding venue map"
+          src="https://maps.google.com/maps?q=RB%20Convention%20Hall%20Arakan%20Road%20Chattogram&t=&z=16&ie=UTF8&iwloc=&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <a
+        class="direction-button"
+        href="https://maps.app.goo.gl/ZB1XfiJdqwA3XgRBA"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Get Directions
+      </a>
+    </div>
+  </article>
+</section>
+
+
+        <section class="final-panel" aria-label="Closing invitation">
+          <div class="closing-content">
+            <h2>Shuvo &amp; Baishakhe</h2>
+            <span class="heart-line">♥</span>
+            <div class="closing-grid">
+              <div>
+                <h3>With Compliments<br />From</h3>
+                <p>Pankaj Talukder</p>
+                <p>Shally Talukder</p>
+                <p>Ranadhir Mazumder</p>
+                <p>Trishna Mazumder</p>
+              </div>
+            </div>
+            <p class="closing-date">6th July, 2026 · RB Convention hall</p>
+          </div>
+        </section>
+
+        <button class="music-toggle" id="musicToggle" type="button" aria-label="Toggle music">
+          <span id="musicIcon">♪</span>
+        </button>
+        <audio id="weddingMusic" src="assets/music.mp3" loop preload="auto"></audio>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

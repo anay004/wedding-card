@@ -869,3 +869,6 @@ a {
     letter-spacing: 0.14em;
   }
 }
+.creator-credit span {
+  font-weight: 700;
+}

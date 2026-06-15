@@ -847,13 +847,25 @@ a {
 }
 
 .creator-credit {
-  position: absolute;
-  bottom: 22px;
-  z-index: 6;
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  z-index: 30;
+  transform: translateX(-50%);
   margin: 0;
+  width: max-content;
+  max-width: 90vw;
   color: rgba(116, 51, 30, 0.75);
   font-family: Montserrat, Arial, sans-serif;
   font-size: 0.72rem;
   letter-spacing: 0.18em;
+  text-align: center;
   text-transform: uppercase;
+}
+@media (max-width: 720px) {
+  .creator-credit {
+    bottom: 72px;
+    font-size: 0.66rem;
+    letter-spacing: 0.14em;
+  }
 }
